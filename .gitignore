@@ -1,0 +1,22 @@
+# XAMPP / local files
+xampp/
+*.log
+
+# Uploaded images and user files
+uploads/*
+!uploads/.gitkeep
+
+# Environment / secret files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+# Original database dump
+*.sql
+!hidden_insight_clean.sql
